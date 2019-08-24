@@ -1,0 +1,25 @@
+GIT COMMANDS
+------------------------------------------------------
+git init
+
+git status
+
+git add
+
+git config --global user.name rajeshande
+git config --global user.email rajesh.ande@live.com
+
+git commit -m "message"
+
+git log 
+------------------------------------------------------
+
+git reset --hard (this reset command works only on tracked files or files that are changes to commit)
+
+git clean -fd (this clean command works only on untracked files which means files created but not yet add to staging area) (this command will clean those files)
+
+git log (this log command will provide all the commit ID's)
+
+git checkout <commit ID> (this command will reach to the changes that were at that commit ID, once we are done checking, we can go back to the master using )
+git checkout master
+
