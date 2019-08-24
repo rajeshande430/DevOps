@@ -1,0 +1,51 @@
+GIT COMMANDS
+------------------------------------------------------
+git init
+
+git status
+
+git add									- untracked files which means newely current
+git add . (. means current directory)	- same as above
+git add --all							- same as above
+git add -u 								- Tracked files 
+
+git config --global user.name rajeshande
+git config --global user.email rajesh.ande@live.com
+
+git commit -m "message"
+
+git log 
+------------------------------------------------------
+
+git reset --hard (this reset command works only on tracked files or files that are changes to commit)
+
+git clean -fd (this clean command works only on untracked files which means files created but not yet add to staging area) (this command will clean those files)
+
+git log (this log command will provide all the commit ID's)
+
+git checkout <commit ID> (this command will reach to the changes that were at that commit ID, once we are done checking, we can go back to the master using )
+git checkout master
+
+Q - If our head is lookingout a commit ID which has no relation with the branch , that state is called as detached state - ?????
+A : if the head is looking out a commit ID which is not longer a branch latest version which is called as detached state or warning state
+	example : 	Master
+					-> Branch 1
+						-> CID 1
+						-> CID 2
+				head	-> CID 3
+git checkout CID 1
+				Master
+					-> Branch 1
+				head	-> CID 1
+						-> commits missing
+						-> commits missing
+						
+----------------------------------------------------------
+GIT BRANCH - when ever we need a parllel development we create branches
+----------------------------------------------------------
+git branch
+
+git checkout <branchname>
+
+
+
