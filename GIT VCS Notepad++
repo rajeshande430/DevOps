@@ -55,7 +55,7 @@ git checkout <branchname>
 
 git branch -r
 
-git branch -a
+git branch -a	(all remote branches will start with remote/<branchname>
 -----------------------------------------------------------
 GIT Merge Conflict
 -----------------------------------------------------------
