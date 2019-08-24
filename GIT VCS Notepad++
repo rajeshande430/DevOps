@@ -54,9 +54,17 @@ git branch
 git checkout <branchname>
 
 git branch -r
-local branches & remote branches
-testing same line with 2 different people - user b	
- welcome from powershell
+
+git branch -a
+-----------------------------------------------------------
+GIT Merge Conflict
+-----------------------------------------------------------
+when ever we are sending the changes from local to the remote repository, we always have to be with the latest repo at local other wise 
+if there is any clash with in the same brach of same line item where you and others are working simultaniously, and other person push the changes to the 
+remote repo and you try to sent merge conflit will appear beacuse
+your head is not at the latest point.
+head always looks at the latest commit ID, since there was a commit id by another person heads moves to the new location, so inorder to get the change 
+use git pull <> <> commans and update your local repo then push.
 
 
 
