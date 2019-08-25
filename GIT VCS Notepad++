@@ -50,7 +50,9 @@ git checkout CID 1
 ----------------------------------------------------------
 GIT BRANCH - when ever we need a parllel development we create branches
 ----------------------------------------------------------
-git branch
+git branch <branchname>
+	or
+git checkout -b <branchname>	- this will create a branch and will checkout the terminal to the branch directly
 
 git checkout <branchname>
 
@@ -81,7 +83,7 @@ COMMIT ID is a hashing algorithem, commit id is a combination of
 		commit message
 					{
 						user@LAE20026 MINGW64 ~/Desktop/GIT VCS/DevOps (gitvcs)
-						$ git log
+				$ git log
 						commit 29d180c843d7c84f5b2f65cc1c7a3acdf7d292a6 (HEAD -> gitvcs, origin/gitvcs)
 						Author: RajeshAnde <rajesh.ande@live.com>
 						Date:   Sun Aug 25 11:08:14 2019 +0400
@@ -94,8 +96,9 @@ COMMIT ID is a hashing algorithem, commit id is a combination of
 
 						2 GIT COMMIT ID CONCEPT JPEG + GIT COMMANDS NOTEPAD++ DOC
 					}
+GIT PLUMBING Command				
+git cat-file -p 29d180c843d7c84f5b2f65cc1c7a3acdf7d292a6
 					{
-						git cat-file -p 29d180c843d7c84f5b2f65cc1c7a3acdf7d292a6
 						$ git cat-file -p 29d180c843d7c84f5b2f65cc1c7a3acdf7d292a6
 						tree 1c46e4041a46d9e6695c03813f3831963ba54d02
 						parent ab1c42898631264d899586dada9bf1658d6c540f
