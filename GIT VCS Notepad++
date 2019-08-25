@@ -9,6 +9,7 @@ git add . (. means current directory)	- same as above
 git add --all							- same as above
 git add -u 								- Tracked files 
 
+git config --list (to check the all the branches)
 git config --global user.name rajeshande
 git config --global user.email rajesh.ande@live.com
 
@@ -78,10 +79,39 @@ COMMIT ID is a hashing algorithem, commit id is a combination of
 		authors name
 		date and time
 		commit message
+					{
+						user@LAE20026 MINGW64 ~/Desktop/GIT VCS/DevOps (gitvcs)
+						$ git log
+						commit 29d180c843d7c84f5b2f65cc1c7a3acdf7d292a6 (HEAD -> gitvcs, origin/gitvcs)
+						Author: RajeshAnde <rajesh.ande@live.com>
+						Date:   Sun Aug 25 11:08:14 2019 +0400
 
+							HASHING algorithem + nootepad +
 
+						commit ab1c42898631264d899586dada9bf1658d6c540f (master)
+						Author: RajeshAnde <rajesh.ande@live.com>
+						Date:   Sat Aug 24 16:59:59 2019 +0400
 
+						2 GIT COMMIT ID CONCEPT JPEG + GIT COMMANDS NOTEPAD++ DOC
+					}
+					{
+						git cat-file -p 29d180c843d7c84f5b2f65cc1c7a3acdf7d292a6
+						$ git cat-file -p 29d180c843d7c84f5b2f65cc1c7a3acdf7d292a6
+						tree 1c46e4041a46d9e6695c03813f3831963ba54d02
+						parent ab1c42898631264d899586dada9bf1658d6c540f
+						author RajeshAnde <rajesh.ande@live.com> 1566716894 +0400
+						committer RajeshAnde <rajesh.ande@live.com> 1566716894 +0400
 
+						HASHING algorithem + nootepad +
+					}
+ADVANTAGE OF GIT
+			if create copys of files which has the same content, each file is 1KB, when we commit git will save under one commit ID 
+			because all files remains same, git will use only 1 memory as long as the files and content remains same.
+			
+what ever we are working, everything will be saved under .git folder
 
+when ever we do git pull or push only .git folder travels from local to remote repo and .git folder knows what content has to be populated.
+
+git clone "https://......."
 
 
