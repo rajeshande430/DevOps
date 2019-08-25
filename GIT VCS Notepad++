@@ -114,6 +114,5 @@ when ever we do git pull or push only .git folder travels from local to remote r
 
 git clone "https://......."
 
-11
 
 
