@@ -117,4 +117,25 @@ when ever we do git pull or push only .git folder travels from local to remote r
 
 git clone "https://......."
 
+----------------------------------------------------------------------------
+GIT MERGE 
+GIT REBASE
+GIT CHERRY-PICK
+----------------------------------------------------------------------------
+GIT MERGE
 
+git merge <branch>
+
+GIT REBASE
+
+git rebase <branch>
+git rebase --continue
+
+GIT CHERRY-PICK
+
+git cherry-pick <commitID>
+git cherry-pick <commitID8..commitID6>
+insert
+edit or drop
+git commit --amend
+git rebase --continue
