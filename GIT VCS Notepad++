@@ -116,6 +116,7 @@ what ever we are working, everything will be saved under .git folder
 when ever we do git pull or push only .git folder travels from local to remote repo and .git folder knows what content has to be populated.
 
 git clone "https://......."
+git clone "https://......." -b "branch name"
 
 ----------------------------------------------------------------------------
 GIT MERGE 
